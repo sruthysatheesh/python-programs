@@ -1,10 +1,8 @@
-i=1
-sum=0
+i,sum=1,0
 n=int(input("Enter the limit:"))
 if n<0:
-  print("enter a valid limit:")
-else:
-  while i<=n:
+  n=int(input("enter a valid limit:"))
+while i<=n:
     sum+=i
     i+=1
-  print("sum of", n , "natural numbers =", sum)
+print("sum of", n , "natural numbers =", sum)
