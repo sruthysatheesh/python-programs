@@ -7,4 +7,4 @@ else:
   while i<=n:
     sum+=i
     i+=1
-  print("sum of", n , "natural numnbers=", sum)
+  print("sum of", n , "natural numbers =", sum)
